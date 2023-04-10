@@ -15,6 +15,12 @@ export default {
     ]
   },
 
+  server: {
+    // Otherwise Codespace will response 502
+    // https://github.com/orgs/community/discussions/28563#discussioncomment-4880737
+    host: '0.0.0.0'
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
